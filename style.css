@@ -1,0 +1,454 @@
+/*media query min-width 1140px*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	height: 1500px;
+	font-family: Poppins, serif; 
+}
+header {
+	margin: 1% 0% 2%;
+	height: 650px;
+}
+.logo{
+	width: 100px; 
+	float: left;
+}
+#hidden {
+	display: none;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 1% 2%;
+}
+#information ul li{	
+	float: left;
+}
+#information ul li:hover {
+	font-weight: 700;
+}
+#login ul li {
+	float: right;
+}
+#login ul li:hover {
+	background-color: hsl(180, 66%, 49%);
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin: 0.26%;	
+}
+#login ul li:hover a{
+	color: hsl(0, 0%, 100%);
+}
+nav ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	color: hsl(0, 0%, 0%);
+}
+#header{
+	padding-top: 5%;
+	padding-left: 2%;
+	width: 50%;
+	float: left;
+	display: block;
+}
+#header h1 {
+    font-weight: bolder;
+    font-size: 5vw;
+    width: 80%;
+}
+#header h6 {
+	color: hsl(0, 3%, 50%);
+	font-size: 1.4vw;
+	width: 70%;
+}
+#header input{
+	background-color: hsl(180, 66%, 49%);
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: hsl(0, 0%, 100%);
+	border: none;
+	margin-top: 2%;
+	cursor: pointer;
+}
+#imgContainer {
+	padding-top: 5%;
+	width: 48%;
+	float: right;
+	overflow: hidden;
+}
+#imgContainer img {
+	width: 120%;
+}
+main {
+	background-color: hsl(230, 25%, 95%);
+	min-height: 1066px;
+}
+#checkURL {
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(images/bg-boost-desktop.svg);
+    margin: 0px 2% 0px;
+    padding: 3% 3%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    margin-top: -38px;
+    width: 90%;
+    height: 8%;
+    z-index: 2;
+}
+#checkURL input {
+	border: none;
+	border-radius: 10px;
+}
+#textField {
+	padding: 8px 12px;
+	width: 80%;
+	color: hsl(0, 0%, 75%);
+	font-size: 2vw; 
+	margin-left: 5px;
+}
+#submitButton {
+	padding: 17px 12px;
+	width: 15%;
+	background-color: hsl(180, 66%, 49%);
+	color: hsl(0, 0%, 100%);
+	font-size: 1.2vw;
+}
+#message {
+	text-align: left;
+	font-size: 1vw;
+}
+#results {
+	padding-top: 60px;
+    padding-left: 20px;
+    min-height: 50px;
+}
+#results .addedLinks {
+	width: 70%;
+	height: 50px;
+	background-color: hsl(0, 0%, 100%);
+	margin: 10px 0px 10px 15%;
+	border-radius: 10px;
+}
+#results .addedLinks:first-child{
+	margin-top: 70px;
+}
+#results .addedLinks>p {
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+#results .buttonCopy{
+	background-color: hsl(180, 66%, 49%);
+	color: hsl(0, 0%, 100%);
+	padding: 10px 15px;
+	border-radius: 15px;
+	float: right;
+	margin: 8px 10px 0 0; 
+	border: none;
+}
+#statistics {
+	padding-top: 15%;
+	height: 700px;
+}
+#statistics h2, p {
+	text-align: center;
+	font-weight: bold;
+}
+#statistics div {
+	margin-bottom: 10%;
+}
+#statistics div h2 {
+	font-size: 2.5vw;
+	color:hsl(260, 8%, 14%);
+	margin-bottom: 10px;
+}
+#statistics div p {
+	width: 35%;
+	margin-left: 32%;
+	margin-top: 2%;
+}
+#statistics p {
+	color:hsl(257, 7%, 63%);
+}
+article {
+	width: 30%;
+	display: inline;
+	background-color: hsl(0, 0%, 100%);
+	height: 250px;
+	float: left;
+	border-radius: 10px;
+}
+article p {
+	text-align: left;
+	margin-left: 10px;
+	font-size: 1.4vw;
+	width: 90%;
+}
+article h3{
+	color:hsl(260, 8%, 14%);
+	margin: 70px 0 10px 10px;
+}
+#first {
+	margin: 30px 10px 0 50px;
+}
+#second {
+	margin: 60px 10px 0 0;
+}
+#third {
+	margin: 90px 10px 0 0;
+}
+.container {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+    position: absolute;
+    background-color: hsl(257, 27%, 26%);
+    z-index: 2;
+}
+#first .container {
+	left: 7vw;
+    margin-top: -30px;
+}
+#second .container {
+	left: 38vw; 
+	margin-top: -30px;
+}
+#third .container {
+	left: 68vw;
+	margin-top: -30px;
+}
+.container img {
+	width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+#boostLinks {
+	background-color: hsl(257, 27%, 26%);
+    background-image: url(images/bg-boost-desktop.svg);
+    height: 200px;
+}
+#boostLinks input {
+	background-color: hsl(180, 66%, 49%);
+	border-radius: 25px;
+	padding: 20px 40px;
+	color: hsl(0, 0%, 100%);
+	border: none;
+	margin-top: 0.5%;
+	cursor: pointer;
+	margin-left: 44.5%;
+}
+#boostLinks h2 {
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	padding: 20px 10px;
+}
+footer {
+	height: 200px;
+	background-color: hsl(260, 8%, 14%);
+	padding-bottom: 10px;
+	color:  hsl(0, 0%, 100%);
+}
+footer #logo {
+	margin: 10px 25% 0 20px;
+	color: hsl(0, 0%, 100%);
+	font-size: 20px;
+	display: inline-block;
+}
+footer > ul {
+	width: 15%;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0px;
+}
+footer >ul li {
+	list-style-type: none;
+	padding: 5px 0px;
+}
+footer >ul li a {
+	color: hsl(257, 7%, 63%);
+	text-decoration: none;
+}
+footer >ul li a:hover {
+	color: hsl(181, 63%, 57%);
+}
+footer >ul> li:first-child a{
+	font-weight: bold;
+	color: hsl(0, 0%, 100%);
+}
+footer >ul#socialMediaIcons li {
+	display: inline-block;
+	margin-right: 10%;
+}
+@media only screen and (max-width: 375px) {
+header {
+    height: 740px;
+}
+.headerContainer {
+	height: 60px;
+}
+.navContainer{
+	display: none;
+}
+#verticalBar {
+	display: block;
+	height: 300px;
+   	padding-top: 62px;
+}
+#verticalBar #navBars{
+	background-color: hsl(257, 27%, 26%);
+	border-radius: 20px;
+	width: 90%;
+   	height: 37%;
+	margin-left: 5%;
+	position: absolute;
+   	z-index: 1;
+}
+#verticalBar nav ul li{
+	width: 100%;
+	display: block;
+	margin: 10px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+#verticalBar nav#information ul{
+	height: 140px;
+	border-bottom: 2px solid hsl(257, 27%, 35%);
+}
+#verticalBar nav ul li a{
+	color: #fff;
+}
+#verticalBar nav#login ul li:hover {
+	padding: 4px 15px;
+   	width: 70%;
+   	margin: 10px 30px;
+}
+#hidden {
+	display: inline-block;
+	float: right;
+}
+#hidden a img {
+	width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+}
+#headerContainer img {
+	display: inline-block;
+}
+#switch {
+    display:flex;
+    flex-direction: column-reverse;  
+    width: 99%;
+}
+#header, #imgContainer{
+   	width: 100%;
+   	margin: 60px 0 0 0;
+   	padding: 0;
+}
+#imgContainer img {
+   	width: 100%;
+}
+#switch h1 {
+    font-size: 10vw;
+    text-align: center;
+    width: 95%;
+}
+#switch h6 {
+    font-size: 6vw;
+    padding: 0 10px;
+    width: 94%;
+    text-align: center;
+}
+#header input {
+   	margin-left: 30%;
+   	padding: 15px 30px 20px;
+}
+main {
+  	min-height: 1400px;
+}
+#checkURL {
+    margin-top: -40px;
+    height: auto;
+    background-image: url('images/bg-boost-mobile.svg');
+}
+#checkURL input {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#textField {
+    font-size: 4vw;
+    margin-left: 5px;
+}
+#submitButton {
+	width: 35%;
+    font-size: 3.2vw;
+    margin-left: 32%;
+}
+#message {
+	text-align: left;
+	font-size: 3.5vw;
+}
+#results{
+	min-height: 50px;
+}
+#statistics {
+    height: 1150px;
+}
+#statistics div h2 {
+	font-size: 6vw;
+    margin-top: 20%;
+}
+#statistics div p {
+    width: 86%;
+    margin-left: 7%;
+}
+article {
+    width: 98%;
+    display: block;
+    height: 250px;
+    margin-left: 10px;
+}
+#first {
+    margin: 30px 5px 0px 6px;
+}
+#second, #third {
+	margin-left: 6px;
+}
+#first .container, #second .container, #third .container {
+    left: 37vw;
+}
+article h3 {
+   	text-align: center;
+   	font-size: 7.8vw; 
+}
+article p {
+    text-align: center;
+    font-size: 4.4vw;
+}
+#boostLinks {
+	background-image: url('images/bg-boost-mobile.svg');
+	margin-top: 5px;
+}
+#boostLinks input {
+    margin-left: 25%;
+}
+footer {
+	height: 700px;
+}
+footer > ul {
+    display: block;
+    height: 190px;
+    width: 100%;
+    text-align: center;
+}
+footer > ul#socialMediaIcons {
+	height: 50px;
+}
+}
